@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: red;
+    background: #f6f8f9;
 }
 
 header{
@@ -25,7 +25,7 @@ h1{
     font-family: 'Roboto', sans-serif;
     width: 1024px;
     margin: 0 auto;
-    padding: 10px 0 10px 55px;
+    padding: 10px 0 40px 55px;
     background: white;
 }
 
@@ -35,7 +35,7 @@ h1{
 }
 
 .bottone{
-    padding: 5px;
+    padding: 6px;
     border-radius: 5px;
     border: 1px solid lightgray;
     text-align: center;
@@ -47,10 +47,53 @@ h1{
     color: white;
 }
 
-p{
-
+.margine_li{
+    margin-top: 25px;
 }
 
+.margine_p{
+    margin-top: 10px;
+}
+
+.check{
+    padding: 1px 5px;
+    border-radius: 100%;
+    border: 1px solid green;
+    background: white;
+    color: green;
+}
+
+.cross{
+    padding: 1px 5px;
+    border-radius: 100%;
+    border: 1px solid red;
+    background: white;
+    color: red;
+}
+
+.button{
+    padding: 6px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    font-size: x-small;
+    text-align: center;
+    color: white;
+}
+.Editorial{
+    background: #47adf1;
+}
+
+.Q1_Goals{
+    background: #9c72e4;
+}
+
+.Recruiting{
+    background: #64c0a9;
+}
+
+.Mobile{
+    background: #f29e33;
+}
 /* li{
     list-style-type: arrow-down;
 } */
