@@ -22,13 +22,36 @@ h1{
 }
 
 .container{
+    font-family: 'Roboto', sans-serif;
     width: 1024px;
     margin: 0 auto;
+    padding: 10px 0 10px 55px;
     background: white;
 }
 
 #margine{
     margin: 30px auto 10px auto;
+    padding: 10px 0 10px 40px;
 }
 
+.bottone{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    text-align: center;
+    background: white;
+    color: lightgray
+}
+.bottone:hover{
+    background: #47adf1;
+    color: white;
+}
+
+p{
+
+}
+
+/* li{
+    list-style-type: arrow-down;
+} */
 
