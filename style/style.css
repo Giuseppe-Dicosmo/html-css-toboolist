@@ -5,6 +5,7 @@
 }
 body{
     background: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -12,21 +13,25 @@ header{
 }
 
 img{
-    margin: 10px 0 0 20px ;
+    margin: 10px 0 10px 20px;
+    vertical-align: -20px;
 }
 
 h1{
-    font-family: 'Roboto', sans-serif;
     display: inline-block;
     font-size: 40px;
 }
 
 .container{
-    font-family: 'Roboto', sans-serif;
-    width: 1024px;
+    width: 75%;
     margin: 0 auto;
-    padding: 10px 0 40px 55px;
+    padding: 10px 0 40px 60px;
     background: white;
+}
+
+h3{
+    display: inline-block;
+    margin-top: 30px;
 }
 
 #margine{
@@ -47,27 +52,25 @@ h1{
     color: white;
 }
 
-.margine_li{
-    margin-top: 25px;
-}
-
 .margine_p{
     margin-top: 10px;
 }
 
-.check{
-    padding: 1px 5px;
+.checkbox{
+    margin-right: 5px;
+    padding: 1px 3px;
     border-radius: 100%;
-    border: 1px solid green;
     background: white;
-    color: green;
+    font-size: xx-small;
+}
+
+.check{
+    border: 1px solid #55b9a0;
+    color: #55b9a0;
 }
 
 .cross{
-    padding: 1px 5px;
-    border-radius: 100%;
     border: 1px solid red;
-    background: white;
     color: red;
 }
 
@@ -94,7 +97,11 @@ h1{
 .Mobile{
     background: #f29e33;
 }
-/* li{
-    list-style-type: arrow-down;
-} */
 
+.Website{
+    background: #d863a1;
+}
+
+.Sales{
+    background: #b0c926;
+}

@@ -4,24 +4,21 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-
+    <!-- logo -->
     <header>
         <img src="img/logo.png" alt="">
         <h1>Toboolist</h1>
     </header>
 
+    <!-- navigazione -->
     <nav id="margine" class="container">
-
         <button class="bottone" type="button">
             Add Task
         </button>
@@ -29,41 +26,76 @@
         <button class="bottone" type="button">
             Add Section
         </button>
-
     </nav>
 
     <main class="container">
-        <ul>
-            <li class="margine_li"><h2>New Task</h2></li>
+        <details>
+            <!-- New Task -->
+            <summary>
+                <h3>New Task</h3>
+            </summary>
+
             <p class="margine_p">
-                <button class="check">&check;</button>
+                <b><button class="checkbox check">&check;</button></b>
                 Quarterly Newsletter
                 <button class="button Editorial">Editorial</button>
             </p>
+        </details>
 
-            <li class="margine_li"><h2>Today</h2></li>
+        <details>
+            <!-- Today -->
+            <summary>
+                <h3>Today</h3>
+            </summary>
+
             <p class="margine_p">
-                <button class="check">&check;</button>
+                <b><button class="checkbox check">&check;</button></b>
                 Recruiting blog post
                 <button class="button Editorial">Editorial</button>
             </p>
             <p class="margine_p">
-                <button class="check">&check;</button>
+                <b><button class="checkbox check">&check;</button></b>
                 Mobile app luaunch
                 <button class="button Q1_Goals">Q1 Goals</button>
             </p>
             <p class="margine_p">
-                <button class="cross">&cross;</button>
+                <b><button class="checkbox cross">&cross;</button></b>
                 Interview John H.
                 <button class="button Recruiting">Recruiting</button>
             </p>
             <p class="margine_p">
-                <button class="check">&check;</button>
+                <b><button class="checkbox check">&check;</button></b>
                 Summit update to mobile storefronts
                 <button class="button Mobile">Mobile</button>
             </p>
-        </ul>
-    </main>
+        </details>
 
+        <details>
+            <!-- Upcoming -->
+            <summary>
+                <h3>Upcoming</h3>
+            </summary>
+
+            <p class="margine_p">
+                <b><button class="checkbox cross">&cross;</button></b>
+                Schedule meeting with Alex
+            </p>
+            <p class="margine_p">
+                <b><button class="checkbox check">&check;</button></b>
+                Homepage refresh
+                <button class="button Website">Website</button>
+            </p>
+            <p class="margine_p">
+                <b><button class="checkbox check">&check;</button></b>
+                Onboard new Sales team members
+                <button class="button Sales">Sales</button>
+            </p>
+            <p class="margine_p">
+                <b><button class="checkbox check">&check;</button></b>
+                Review editorial calendar
+                <button class="button Editorial">Editorial</button>
+            </p>
+        </details>
+    </main>
 </body>
 </html>
